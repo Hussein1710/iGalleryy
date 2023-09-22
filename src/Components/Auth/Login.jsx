@@ -4,7 +4,6 @@ import { FcGoogle } from "react-icons/fc";
 import { AiOutlineMail } from "react-icons/ai";
 import { auth, provider } from "../Auth/config";
 import { signInWithPopup } from "firebase/auth";
-import ImageGalleryPage from "../../Pages/ImageGalleryPage";
 import { useNavigate } from "react-router-dom";
 
 const Login = () => {
@@ -46,7 +45,7 @@ const Login = () => {
     setEmail(localStorage.getItem("email"));
   }, []);
   const divStyle = {
-    backgroundImage: `url(https://pixabay.com/get/g30a70bfbb81ea858faf3191176c9c2225f3b2d17dca9efab4f27b56c8cf62701d7d47799a83eff005b9addeec33140afc0070d80cecf8939fcfbd274969036b7_1280.jpg)`,
+    backgroundImage: `url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS09PwxEBzGvgtOtbGTuGLbZfskissI1tQUSQ&usqp=CAU)`,
     backgroundSize: "cover",
     height: "100vh",
     backgroundPosition: "center",
